@@ -105,13 +105,16 @@ o Front-End Development Framework: React
  
 ## Tests
 ### Running the tests: ### 
-Coverage: 70
+Coverage: 
   
  
 Navigate to src/ __Tests__ to find all the tests and enter the following into the integerated terminal `npm test start`
 
 
 Testing was carried utilizing JEST Framework, Mocha and Chai
+ 
+ <img width="493" alt="Testing Coverage" src="https://user-images.githubusercontent.com/67691352/121672490-c5188600-caa7-11eb-8fad-b7e7e51b3a64.png">
+
  
  [Back to top](#table-of-contents)
 
@@ -145,6 +148,9 @@ List of features ready and TODOs for future development
 * About Us 
   
 * Jira Board https://team-1616578727154.atlassian.net/jira/software/projects/QAC/boards/6
+ 
+<img width="728" alt="logo2" src="https://user-images.githubusercontent.com/67691352/121672001-27bd5200-caa7-11eb-9d5e-7458abe16042.png">
+
 
  [Back to top](#table-of-contents)
 
