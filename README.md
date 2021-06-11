@@ -176,9 +176,12 @@ Community Features:
  * Facebook [click-here](https://www.facebook.com/profile.php?id=100068735958729) 
  * Instagram [click-here](https://www.instagram.com/qacinemas123/) 
  * Twitter [click-here](https://twitter.com/QACinema4) 
+ 
+   [Back to top](#table-of-contents)
+ 
 ## APIs and REFERECES
  
-  [Back to top](#table-of-contents)
+
  
 
 ### API: ###
