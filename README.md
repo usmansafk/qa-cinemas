@@ -1,70 +1,210 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#   QA Cinemas  
+### Specialism Project ###
+ 
+This repository withholds the third project within QA-Academy; a team based project to create full-stack application for a Cinema franchise, QA cinemas and consisted of specfic specifications.
 
-## Available Scripts
+The application will showcase film listings, offer the user to create an account, make a booking and payment. The website was built using the MERN Stack and had Agile SCRUM princples in mind, with all the project manageement managed with JIRA. 
 
-In the project directory, you can run:
+<img width="597" alt="Screenshot 2021-06-11 at 09 39 21" src="https://user-images.githubusercontent.com/67691352/121658085-ea51c800-ca98-11eb-8207-851209f4ce1a.png">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Table of Contents
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Getting Started](#getting-started)
+* [Tests](#tests)
+* [Features](#features)
+* [Status](#status)
+* [Built With](#built-with)
+* [Versioning](#versioning)
+* [License](#license)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+Below are a set of instructions which will allow you access this project on your local machine to establish a production or development environment:
+Prerequisites:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ### Prerequisites: ### 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Software tools required to create this application where to install them.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+* JavaScript (available in any browser)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Node [(available here)](https://nodejs.org/en/download/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* NPM (comes with Node by default) [(available here)](https://www.npmjs.com/get-npm)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Express JS [(available here)](https://expressjs.com/en/starter/installing.html)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* MonngoDB [(available here)]( https://www.mongodb.com/try/download/community)
 
-## Learn More
+* React JS [(available here)]( https://reactjs.org/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* VS Code (IDE) [(available here)](https://code.visualstudio.com/download)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Google Chrome [(available here)](https://www.google.com/intl/en_uk/chrome/)
 
-### Code Splitting
+* PostMan [(available here)](https://www.postman.com/downloads/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Compass [(available here)](https://www.mongodb.com/products/compass)
 
-### Analyzing the Bundle Size
+ [Back to top](#table-of-contents)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+ ### Installing: ### 
+ 
+1. Clone the repository to your system. You can directly clone this repo from this command on git:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+              `https://github.com/QA-Cinemas-TeamDipsy/qa-cinemas.git`
 
-### Advanced Configuration
+2. Make changes in a separate branch by git checkout -b <BranchName>  (recommended)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Open the project with your preferred IDE, we recommend VS Code
 
-### Deployment
+4. Create server instances for the application to run:
+      * Port: localhost:3000  (Website)
+      * Port: localhost:8080  (Express)
+      * Port: localhost:27017 (MongoDB)
+      
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+5. Next to to start the react application, typing in
+    `npm start`
+ 
+6. Your development workspace should now be set up and you can run the application
 
-### `npm run build` fails to minify
+8. Conduct tests accordingly by entering into the console: 
+    `npm test start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+ [Back to top](#table-of-contents)
+
+ ### Technologies: ### 
+
+• Version Control System: Git
+  
+• Source Code Management: GitHub
+  
+• Kanban Board: Jira
+  
+• Full-Stack Development Technologies: MERN stack
+  
+o Database Management System: GCP instance of MySQL/MongoDB o Back-End Programming Language: Node
+  
+o API Development Platform: Express
+  
+o Front-End Development Framework: React
+  
+• Unit Testing: Mocha, Chai
+  
+ [Back to top](#table-of-contents)
+ 
+## Tests
+### Running the tests: ### 
+Coverage: 70
+  
+ 
+Navigate to src/ __Tests__ to find all the tests and enter the following into the integerated terminal `npm test start`
+
+
+Testing was carried utilizing JEST Framework, Mocha and Chai
+ 
+ [Back to top](#table-of-contents)
+
+## Features
+List of features ready and TODOs for future development
+
+### Features: ###
+  
+* HomePage
+
+* Listing Gallery: Whats On and Upcoming Films
+
+* Create User Account
+
+* Make Bookings and Payments
+  
+* Seating Plan
+    
+* Film Search
+  
+* Film Classifcations
+  
+* Getting There and Places to Go
+  
+* Disucssion Board
+  
+* Overall professionally designed UI, Header and Footer and Custom Designed Logo
+  
+* Contact Us Form
+  
+* About Us 
+  
+* Jira Board https://team-1616578727154.atlassian.net/jira/software/projects/QAC/boards/6
+
+ [Back to top](#table-of-contents)
+
+### To-do list: ###
+ToDo:
+  
+  
+Community Features: 
+
+* Improve on User Profile 
+
+* Ticket Cancellation
+
+ [Back to top](#table-of-contents)
+  
+
+## APIs and REFERECES
+
+### API: ###
+  
+  * IMDb Movie DB API
+  * Google Maps API
+  * Stripe API
+  * Profanity Filter API
+  
+### REFERECES ###
+  React Bootstrap https://react-bootstrap.github.io/
+  British Board of Film Classification https://www.bbfc.co.uk/
+ 
+## Status 
+
+Project MVP is complete
+
+## Built With 
+MERN Stack
+
+ [Back to top](#table-of-contents)
+
+## Versioning 
+We use SemVer for versioning.
+
+ [Back to top](#table-of-contents)
+
+## Authors     
+     
+* Lamarr Redhead-Davis - Developer - [LamarrRD-QA](https://github.com/LamarrRD-QA) 
+* Neel Dudhia - Developer - [NeelDQA](https://github.com/NeelDQA) 
+* Philip Sephton - Developer - [philipsephton-qa](https://github.com/philipsephton-qa)
+* Usman Sajid - Developer - [usmansafk](https://github.com/usmansafk)  
+* Zayne Jamil - Developer - [zaynejamilQA](https://github.com/zaynejamilQA) 
+  
+ [Back to top](#table-of-contents)
+
+## License
+This project is licensed under the MIT license - see the LICENSE.md file fo details for help in Choosing a license
+
+ [Back to top](#table-of-contents)
+
+## Acknowledgments!
+
+Thank you to all the trainers at QA Academy!
+
+ [Back to top](#table-of-contents)
+
