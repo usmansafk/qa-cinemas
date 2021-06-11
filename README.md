@@ -6,7 +6,8 @@ This repository withholds the third project within QA-Academy; a team based proj
 
 The application will showcase film listings, offer the user to create an account, make a booking and payment. The website was built using the MERN Stack and had Agile SCRUM princples in mind, with all the project manageement managed with JIRA. 
 
-<img width="597" alt="Screenshot 2021-06-11 at 09 39 21" src="https://user-images.githubusercontent.com/67691352/121658085-ea51c800-ca98-11eb-8207-851209f4ce1a.png">
+<img width="847" src="https://user-images.githubusercontent.com/67691352/121671569-9ea61b00-caa6-11eb-9de4-5b7e88b5c1c5.png">
+
 
 
 ## Table of Contents
