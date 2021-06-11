@@ -153,7 +153,8 @@ List of features ready and TODOs for future development
 
 
  [Back to top](#table-of-contents)
-
+ 
+ 
 ### To-do list: ###
 ToDo:
   
@@ -167,7 +168,18 @@ Community Features:
  [Back to top](#table-of-contents)
   
 
+ 
+ ## Social Media
+ 
+ Visit the QA-Cinema Socials Below:
+ 
+ * Facebook [click-here](https://www.facebook.com/profile.php?id=100068735958729) 
+ * Instagram [click-here](https://www.instagram.com/qacinemas123/) 
+ * Twitter [click-here](https://twitter.com/QACinema4) 
 ## APIs and REFERECES
+ 
+  [Back to top](#table-of-contents)
+ 
 
 ### API: ###
   
